@@ -24,5 +24,6 @@ app.get('/movies', (req, res) => {
         <p>${movie.rate}</p>
       </a>
     </div>`
-  ).join(''))
+  ).join('')
+  )
 })
